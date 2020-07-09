@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch, HashRouter } from "react-router-dom";
 import { Navigation, Footer, Home, About, Contact, Portfolio } from "./components";
 import { useTrail, animated } from 'react-spring'
 
@@ -23,7 +23,7 @@ function App() {
         ))}
       </div>
 
-      <Router>
+      <HashRouter basename='/'>
         <Navigation />
         <Switch>
           <Route path="/" exact component={() => <Home />} />
@@ -32,7 +32,7 @@ function App() {
           <Route path="/contact" exact component={() => <Contact />} />
         </Switch>
         <Footer />
-      </Router>
+      </HashRouter>
     </div>
   );
 }

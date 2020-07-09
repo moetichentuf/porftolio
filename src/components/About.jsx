@@ -1,5 +1,5 @@
 import React from "react";
-import moeti from "./images/MoetiCV.jpg"
+import moeti from "./images/cvMoeti.jpg"
 import Gallery from 'react-grid-gallery';
 
 function About() {
