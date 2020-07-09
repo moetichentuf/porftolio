@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolioMoeti/static/css/main.78a5e482.chunk.css",
-    "main.js": "/portfolioMoeti/static/js/main.26d1f674.chunk.js",
-    "main.js.map": "/portfolioMoeti/static/js/main.26d1f674.chunk.js.map",
+    "main.css": "/portfolioMoeti/static/css/main.27653bfe.chunk.css",
+    "main.js": "/portfolioMoeti/static/js/main.48203fb9.chunk.js",
+    "main.js.map": "/portfolioMoeti/static/js/main.48203fb9.chunk.js.map",
     "runtime-main.js": "/portfolioMoeti/static/js/runtime-main.f089d3ad.js",
     "runtime-main.js.map": "/portfolioMoeti/static/js/runtime-main.f089d3ad.js.map",
     "static/js/2.73f30116.chunk.js": "/portfolioMoeti/static/js/2.73f30116.chunk.js",
     "static/js/2.73f30116.chunk.js.map": "/portfolioMoeti/static/js/2.73f30116.chunk.js.map",
     "index.html": "/portfolioMoeti/index.html",
-    "precache-manifest.2f0e9dbd3e8e466a0603c6a87cf17ace.js": "/portfolioMoeti/precache-manifest.2f0e9dbd3e8e466a0603c6a87cf17ace.js",
+    "precache-manifest.94def2a0b9e0bc8ce3a84c18d9437185.js": "/portfolioMoeti/precache-manifest.94def2a0b9e0bc8ce3a84c18d9437185.js",
     "service-worker.js": "/portfolioMoeti/service-worker.js",
-    "static/css/main.78a5e482.chunk.css.map": "/portfolioMoeti/static/css/main.78a5e482.chunk.css.map",
+    "static/css/main.27653bfe.chunk.css.map": "/portfolioMoeti/static/css/main.27653bfe.chunk.css.map",
     "static/js/2.73f30116.chunk.js.LICENSE.txt": "/portfolioMoeti/static/js/2.73f30116.chunk.js.LICENSE.txt",
     "static/media/da1.jpeg": "/portfolioMoeti/static/media/da1.36046556.jpeg",
     "static/media/da2.jpeg": "/portfolioMoeti/static/media/da2.4fb47a47.jpeg",
@@ -35,7 +35,7 @@
   "entrypoints": [
     "static/js/runtime-main.f089d3ad.js",
     "static/js/2.73f30116.chunk.js",
-    "static/css/main.78a5e482.chunk.css",
-    "static/js/main.26d1f674.chunk.js"
+    "static/css/main.27653bfe.chunk.css",
+    "static/js/main.48203fb9.chunk.js"
   ]
 }
