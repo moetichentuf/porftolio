@@ -1,6 +1,7 @@
 import React from "react";
 import moeti from "./images/MoetiCV.jpg"
 import Gallery from 'react-grid-gallery';
+
 function About() {
   const CV =
       [{
@@ -11,9 +12,11 @@ function About() {
 
       }]
   return (
+
     <div className="about">
+        <div style={{marginLeft:'20%'}}><Gallery  images={CV}/></div>
       <div class="container">
-          <Gallery  images={CV}/>
+
         <div class="row align-items-center my-5">
 
 
@@ -22,10 +25,7 @@ function About() {
 
             <h1 class="font-weight-light">CV</h1>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+                "If you want the best talent, stop looking for perfection. It does not exist! Resumes don’t perform jobs. it’s people – so hire people and not resumes." 😄
             </p>
 
           </div>
