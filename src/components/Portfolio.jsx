@@ -23,6 +23,10 @@ import da7 from './images/da7.jpeg'
 import da8 from './images/da8.jpeg'
 
 import web1 from './images/web1.png'
+import web2 from './images/web2.png'
+import web3 from './images/web3.png'
+import web4 from './images/web4.png'
+
 
 function Home() {
     const [toggle, set] = useState(false)
@@ -184,7 +188,7 @@ function Home() {
 
     return (
         <div className="home">
-            <button style={{marginLeft:'70%', marginTop:'1%', position:'absolute',zIndex:'1'}}  onClick={() => set(!toggle)}>Next</button>
+            <button style={{marginLeft:'85%', marginTop:'1%', position:'absolute',zIndex:'1'}}  onClick={() => set(!toggle)}>Next</button>
 
             <div class="container">
                 <div class="row align-items-center my-5">
@@ -196,13 +200,30 @@ function Home() {
                     <div class="col-lg-8">
                         {transition.map(({ item, key, props }) =>
                             item ? <animated.div style={props}><h1
-                                style={{marginBottom: '6%'}} className="font-weight-light">WebDesign</h1> <img
-                                className="img-fluid rounded mb-4 mb-lg-0"
-                                src={web1}
-                                alt=""
-                            /></animated.div> : <animated.div style={props}><h1
-                                style={{marginBottom: '6%'}} className="font-weight-light">Graphic Design</h1>
-                                <Gallery images={IMAGES} /></animated.div>
+                                style={{marginBottom: '6%'}} className="font-weight-light">Graphic Design</h1><Gallery images={IMAGES} /> </animated.div> : <animated.div style={props}><h1
+                                style={{marginBottom: '6%'}} className="font-weight-light">Webdesign</h1>
+                                <a href="https://moetichentuf.github.io/news"><img
+                                    className="web"
+                                    src={web1}
+                                    alt=""
+                                /></a>
+                                <a href="https://moetichentuf.github.io/social-impact-Kwikkopie/"><img
+                                    className="web"
+                                    src={web2}
+                                    alt=""
+                                /></a>
+                                <a href="https://moetichentuf.github.io/weather-api/"><img
+                                    className="web"
+                                    src={web3}
+                                    alt=""
+                                /></a>
+                                <a href="https://xenoxinius.github.io/LuckyBox/"><img
+                                    className="web"
+                                    src={web4}
+                                    alt=""
+                                /></a>
+
+                                </animated.div>
                         )}
                         {/*<a style={{right:'5%', top:'1%', position:'absolute'}}><h2>Next></h2></a>*/}
 

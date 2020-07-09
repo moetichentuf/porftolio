@@ -5,10 +5,26 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: white;
+  background-color: #ffb701;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAM8AAAD0CAMAAAAL4oIDAAAAA1BMVEX///+nxBvIAAAASElEQVR4nO3BAQ0AAADCoPdPbQ43oAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+DcZAAAFpTHXUAAAAAElFTkSuQmCC");
+  /*background-image: url("sketch1.jpeg");*/
+  /*background-position: center ;*/
+  /*background-size: contain;*/
+
+  /*background-repeat: no-repeat;*/
+
+}
+
+.web{
+  width: 40%;
+  -webkit-box-shadow: 10px 10px 14px -5px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 14px -5px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 14px -5px rgba(0,0,0,0.75);
+  margin: 3%;
 }
 nav{
-  border-bottom: 1px solid #ffb701;
+
+  background-color: rgba(237, 226, 250, 0.3);
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -22,7 +38,7 @@ code {
 h1{
   font-family: 'Catamaran', sans-serif;
 
-  color:purple;
+  color:black;
   text-shadow: 2px 2px  #ffb701;
 }
 h2{
@@ -32,7 +48,7 @@ button{
   font-family: 'Catamaran', sans-serif;
   text-shadow: 2px 2px  #ffb701;
 font-size: 20px;
-  color: purple;
+  color: black;
   background:none;
   border-style: none;
 border-right:3px solid  #ffb701;
@@ -42,7 +58,7 @@ border-right:3px solid  #ffb701;
 
 p{
   font-size: 2.5vw;
-  color: #ffa001;
+  color: #ffb701;
 
 }
 
@@ -58,6 +74,7 @@ p{
   background: #ffb701;
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   opacity: 1;
+
 }
 
 .hooks-main > div:nth-child(1) {

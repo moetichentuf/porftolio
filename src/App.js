@@ -22,6 +22,7 @@ function App() {
             <animated.div key={index} style={{ transform: props.xy.interpolate(trans) }} />
         ))}
       </div>
+
       <Router>
         <Navigation />
         <Switch>
