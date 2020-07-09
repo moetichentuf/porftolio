@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4035144ef155ab7b797fab31508b1852",
+    "revision": "7e49057349a3971e61adde30e9800dac",
     "url": "/portfolioMoeti/index.html"
   },
   {
-    "revision": "847b25f5573da246b8f3",
+    "revision": "9e7e8c7ade0512f3be5b",
     "url": "/portfolioMoeti/static/css/main.e5dad872.chunk.css"
   },
   {
@@ -16,16 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolioMoeti/static/js/2.0c486151.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "847b25f5573da246b8f3",
-    "url": "/portfolioMoeti/static/js/main.900ac869.chunk.js"
+    "revision": "9e7e8c7ade0512f3be5b",
+    "url": "/portfolioMoeti/static/js/main.0d85909e.chunk.js"
   },
   {
     "revision": "190fa6b450f4af05a139",
     "url": "/portfolioMoeti/static/js/runtime-main.f089d3ad.js"
   },
   {
-    "revision": "596e9cd6318476f729902f62bed22dea",
-    "url": "/portfolioMoeti/static/media/MoetiCV.596e9cd6.jpg"
+    "revision": "9f9743deda392441148119986b65edeb",
+    "url": "/portfolioMoeti/static/media/cvMoeti.9f9743de.jpg"
   },
   {
     "revision": "3604655689b8912161e3ee8979fe6626",
