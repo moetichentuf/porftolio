@@ -21,6 +21,7 @@ import da5 from './images/da5.gif'
 import da6 from './images/da6.jpeg'
 import da7 from './images/da7.jpeg'
 import da8 from './images/da8.jpeg'
+import da9 from './images/da9.jpeg'
 
 import web1 from './images/web1.png'
 import web2 from './images/web2.png'
@@ -44,7 +45,6 @@ function Home() {
             thumbnailHeight: 174,
             tags: [{value: "Graphic design", title: "Graphic Design"}],
             isSelected: false,
-            caption: "After Rain (Jeshu John - designerspics.com)"
         },
             {
                 src: gd2,
@@ -52,7 +52,6 @@ function Home() {
                 thumbnailWidth: 220,
                 thumbnailHeight: 212,
                 tags: [{value: "Graphic design", title: "Graphic Design"}],
-                caption: "Boats (Jeshu John - designerspics.com)"
             },
 
             {
@@ -85,7 +84,6 @@ function Home() {
                 thumbnailWidth: 320,
                 thumbnailHeight: 312,
                 tags: [{value: "Graphic design", title: "Graphic Design"}],
-                caption: "Boats (Jeshu John - designerspics.com)"
             },
             {
                 src: gd7,
@@ -93,7 +91,6 @@ function Home() {
                 thumbnailWidth: 320,
                 thumbnailHeight: 212,
                 tags: [{value: "Graphic design", title: "Graphic Design"}],
-                caption: "Boats (Jeshu John - designerspics.com)"
             },
             {
                 src: gd8,
@@ -101,7 +98,6 @@ function Home() {
                 thumbnailWidth: 320,
                 thumbnailHeight: 212,
                 tags: [{value: "Graphic design", title: "Graphic Design"}],
-                caption: "Boats (Jeshu John - designerspics.com)"
             },
             {
                 src: gd9,
@@ -109,7 +105,6 @@ function Home() {
                 thumbnailWidth: 220,
                 thumbnailHeight: 412,
                 tags: [{value: "Graphic design", title: "Graphic Design"}],
-                caption: "Boats (Jeshu John - designerspics.com)"
             },
             {
                 src: gd10,
@@ -117,7 +112,6 @@ function Home() {
                 thumbnailWidth: 320,
                 thumbnailHeight: 212,
                 tags: [{value: "Graphic design", title: "Graphic Design"}],
-                caption: "Boats (Jeshu John - designerspics.com)"
             },
             {
                 src: da1,
@@ -125,7 +119,6 @@ function Home() {
                 thumbnailWidth: 320,
                 thumbnailHeight: 212,
                 tags: [{value: "Digital Art", title: "Digital Art"}],
-                caption: "Boats (Jeshu John - designerspics.com)"
             },
             {
                 src: da2,
@@ -133,7 +126,6 @@ function Home() {
                 thumbnailWidth: 320,
                 thumbnailHeight: 212,
                 tags: [{value: "Digital Art", title: "Digital Art"}],
-                caption: "Boats (Jeshu John - designerspics.com)"
             },
             {
                 src: da3,
@@ -141,7 +133,6 @@ function Home() {
                 thumbnailWidth: 320,
                 thumbnailHeight: 212,
                 tags: [{value: "Digital Art", title: "Digital Art"}],
-                caption: "Boats (Jeshu John - designerspics.com)"
             },
             {
                 src: da4,
@@ -149,7 +140,6 @@ function Home() {
                 thumbnailWidth: 220,
                 thumbnailHeight: 212,
                 tags: [{value: "Digital Art", title: "Digital Art"}],
-                caption: "Boats (Jeshu John - designerspics.com)"
             },
             {
                 src: da5,
@@ -157,7 +147,6 @@ function Home() {
                 thumbnailWidth: 220,
                 thumbnailHeight: 212,
                 tags: [{value: "Digital Art", title: "Digital Art", }, {value: "GIF", title: "GIF", }],
-                caption: "Boats (Jeshu John - designerspics.com)"
             },
             {
                 src: da6,
@@ -165,7 +154,6 @@ function Home() {
                 thumbnailWidth: 320,
                 thumbnailHeight: 212,
                 tags: [{value: "Digital Art", title: "Digital Art"}],
-                caption: "Boats (Jeshu John - designerspics.com)"
             },
             {
                 src: da7,
@@ -173,7 +161,6 @@ function Home() {
                 thumbnailWidth: 320,
                 thumbnailHeight: 212,
                 tags: [{value: "Digital Art", title: "Digital Art"}],
-                caption: "Boats (Jeshu John - designerspics.com)"
             },
             {
                 src: da8,
@@ -181,7 +168,13 @@ function Home() {
                 thumbnailWidth: 220,
                 thumbnailHeight: 212,
                 tags: [{value: "Digital Art", title: "Digital Art"}],
-                caption: "Boats (Jeshu John - designerspics.com)"
+            },
+            {
+                src: da9,
+                thumbnail: da9,
+                thumbnailWidth: 220,
+                thumbnailHeight: 212,
+                tags: [{value: "Digital Art", title: "Digital Art"}],
             },
         ]
 
@@ -201,7 +194,7 @@ function Home() {
                         {transition.map(({ item, key, props }) =>
                             item ? <animated.div style={props}><h1
                                 style={{marginBottom: '6%'}} className="font-weight-light">Graphic Design</h1><Gallery images={IMAGES} /> </animated.div> : <animated.div style={props}><h1
-                                style={{marginBottom: '6%'}} className="font-weight-light">Webdesign</h1>
+                                style={{marginBottom: '6%'}} className="font-weight-light">Websites</h1>
                                 <a href="https://moetichentuf.github.io/news"><img
                                     className="web"
                                     src={web1}
