@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3dd71e399338329778d10339a990fe2e",
+    "revision": "175dda645b01dbfa328a6679c6c45b7c",
     "url": "/portfolioMoeti/index.html"
   },
   {
-    "revision": "ce0ef1b3c8eb1148ceda",
-    "url": "/portfolioMoeti/static/css/main.27653bfe.chunk.css"
+    "revision": "adbe2842ddf8649f688d",
+    "url": "/portfolioMoeti/static/css/main.320f1b7b.chunk.css"
   },
   {
-    "revision": "5656265d16952ba1aa68",
-    "url": "/portfolioMoeti/static/js/2.73f30116.chunk.js"
+    "revision": "0345c857c7b0d9a633b4",
+    "url": "/portfolioMoeti/static/js/2.ff12f64c.chunk.js"
   },
   {
     "revision": "27df78d2822439c2fc110c0a385025d0",
-    "url": "/portfolioMoeti/static/js/2.73f30116.chunk.js.LICENSE.txt"
+    "url": "/portfolioMoeti/static/js/2.ff12f64c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ce0ef1b3c8eb1148ceda",
-    "url": "/portfolioMoeti/static/js/main.48203fb9.chunk.js"
+    "revision": "adbe2842ddf8649f688d",
+    "url": "/portfolioMoeti/static/js/main.19df91a9.chunk.js"
   },
   {
     "revision": "190fa6b450f4af05a139",
     "url": "/portfolioMoeti/static/js/runtime-main.f089d3ad.js"
+  },
+  {
+    "revision": "596e9cd6318476f729902f62bed22dea",
+    "url": "/portfolioMoeti/static/media/MoetiCV.596e9cd6.jpg"
   },
   {
     "revision": "3604655689b8912161e3ee8979fe6626",
@@ -98,5 +102,17 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "487437d09acb0d21e2b776148f8da75b",
     "url": "/portfolioMoeti/static/media/web1.487437d0.png"
+  },
+  {
+    "revision": "37e6ed8adda1af09cde25dbdcf46c560",
+    "url": "/portfolioMoeti/static/media/web2.37e6ed8a.png"
+  },
+  {
+    "revision": "d5a24ae5b1d3c75829a0c68ab066f028",
+    "url": "/portfolioMoeti/static/media/web3.d5a24ae5.png"
+  },
+  {
+    "revision": "80295fe318541a20ac575569e43bfac0",
+    "url": "/portfolioMoeti/static/media/web4.80295fe3.png"
   }
 ]);
