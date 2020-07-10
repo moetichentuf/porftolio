@@ -181,36 +181,36 @@ function Home() {
 
     return (
         <div className="home">
-            <button style={{marginLeft:'85%', marginTop:'1%', position:'absolute',zIndex:'1'}}  onClick={() => set(!toggle)}>Next</button>
+            <button style={{marginLeft:'75%', marginTop:'1%', position:'absolute',zIndex:'1'}}  onClick={() => set(!toggle)}>Next</button>
 
             <div class="container">
-                <div class="row align-items-center my-5">
+                <div class="row align-items-center my-5 mr-1">
 
                     <div class="col-lg-2">
 
 
                     </div>
-                    <div class="col-lg-8">
+                    <div class="col-lg-9">
                         {transition.map(({ item, key, props }) =>
                             item ? <animated.div style={props}><h1
                                 style={{marginBottom: '6%'}} className="font-weight-light">Graphic Design</h1><Gallery images={IMAGES} /> </animated.div> : <animated.div style={props}><h1
                                 style={{marginBottom: '6%'}} className="font-weight-light">Websites</h1>
-                                <a href="https://moetichentuf.github.io/news"><img
+                                <a href="https://moetichentuf.github.io/news"><h1 style={{marginLeft:'2%',fontSize:'15px'}}>News App</h1><img
                                     className="web"
                                     src={web1}
                                     alt=""
                                 /></a>
-                                <a href="https://moetichentuf.github.io/social-impact-Kwikkopie/"><img
+                                <a href="https://moetichentuf.github.io/social-impact-Kwikkopie/"><h1 style={{marginLeft:'2%',fontSize:'15px'}}>Local Business Redesign</h1><img
                                     className="web"
                                     src={web2}
                                     alt=""
                                 /></a>
-                                <a href="https://moetichentuf.github.io/weather-api/"><img
+                                <a href="https://moetichentuf.github.io/weather-api/"><h1 style={{marginLeft:'2%',fontSize:'15px'}}>Weather App</h1><img
                                     className="web"
                                     src={web3}
                                     alt=""
                                 /></a>
-                                <a href="https://xenoxinius.github.io/LuckyBox/"><img
+                                <a href="https://xenoxinius.github.io/LuckyBox/"><h1 style={{marginLeft:'2%', fontSize:'15px'}}>Lucky Box</h1><img
                                     className="web"
                                     src={web4}
                                     alt=""
