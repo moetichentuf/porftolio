@@ -180,17 +180,20 @@ function Home() {
 
 
     return (
-        <div className="home">
-            <button style={{marginLeft:'75%', marginTop:'1%', position:'absolute',zIndex:'1'}}  onClick={() => set(!toggle)}>Next</button>
+        <div className="home" style={{width:'80%', position:'absolute', marginLeft:'10%', marginTop:'5%'}}>
+            <button class='animate__hinge' style={{marginLeft:'75%', marginTop:'1%', position:'absolute',zIndex:'1'}}  onClick={() => set(!toggle)}>Next <h2
+                style={{right: '20%', position: 'absolute', zIndex: '1'}}
+                className="animate__animated animate__bounce">☝️</h2>
+            </button>
 
-            <div class="container">
-                <div class="row align-items-center my-5 mr-1">
+            <div >
+                <div>
 
-                    <div class="col-lg-2">
+                    <div >
 
 
                     </div>
-                    <div class="col-lg-9">
+                    <div >
                         {transition.map(({ item, key, props }) =>
                             item ? <animated.div style={props}><h1
                                 style={{marginBottom: '6%'}} className="font-weight-light">Graphic Design</h1><Gallery images={IMAGES} /> </animated.div> : <animated.div style={props}><h1

@@ -69,13 +69,18 @@ a{
 }
 p{
 
-  font-size: 30px;
-  color: #ffb701;
-  -webkit-text-stroke: 0.5px white;
+  font-size:2vw;
+  color: black;
 
 
 }
-
+.animate__animated.animate__bounce {
+  --animate-duration: 5s;
+  --animate-repeat: 5;
+}
+img{
+  border: 2px solid #ffb701;
+}
 .hooks-main > svg {
   display: none;
 
