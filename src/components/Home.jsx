@@ -13,13 +13,13 @@ function Home() {
           <div class="col-lg-10">
             <h1 style={{fontSize:"10vw"}} class="font-weight-light">Hi, I'm Moeti.</h1>
             <h1 style={{fontSize:"3vw"}}>
-              Graphic Design, Coding
+              Graphic Design, Coding.
             </h1>
             <p>Hi, my name is Moeti.
               I am a 23 year old who likes, design, animation and coding, or just creating stuff in general.
 
               I have a background in graphic design and I learned
-              how to apply that to my webdesign.
+              how to apply that to my web development.
               My focus is mainly on front-end, but in the future I would like to be able to become a Fullstack developer.</p>
           </div>
         </div>

@@ -43,7 +43,7 @@ function Home() {
             thumbnail: gd1,
             thumbnailWidth: 320,
             thumbnailHeight: 174,
-            tags: [{value: "Graphic design", title: "Graphic Design"}],
+            tags: [{value: "Business Card", title: "Business Card"}],
             isSelected: false,
         },
             {
@@ -51,7 +51,7 @@ function Home() {
                 thumbnail: gd2,
                 thumbnailWidth: 220,
                 thumbnailHeight: 212,
-                tags: [{value: "Graphic design", title: "Graphic Design"}],
+                tags: [{value: "Business Card", title: "Business Card"}],
             },
 
             {
@@ -59,7 +59,7 @@ function Home() {
                 thumbnail: gd6,
                 thumbnailWidth: 320,
                 thumbnailHeight: 212,
-                tags: [{value: "Graphic design", title: "Graphic Design"}],
+                tags: [{value: "Business Card", title: "Business Card"}],
 
             },
             // {
@@ -83,35 +83,35 @@ function Home() {
                 thumbnail: gd3,
                 thumbnailWidth: 320,
                 thumbnailHeight: 312,
-                tags: [{value: "Graphic design", title: "Graphic Design"}],
+                tags: [{value: "Logo", title: "Logo"}],
             },
             {
                 src: gd7,
                 thumbnail: gd7,
                 thumbnailWidth: 320,
                 thumbnailHeight: 212,
-                tags: [{value: "Graphic design", title: "Graphic Design"}],
+                tags: [{value: "Logo", title: "Logo"}],
             },
             {
                 src: gd8,
                 thumbnail: gd8,
                 thumbnailWidth: 320,
                 thumbnailHeight: 212,
-                tags: [{value: "Graphic design", title: "Graphic Design"}],
+                tags: [{value: "Logo", title: "Logo"}],
             },
             {
                 src: gd9,
                 thumbnail: gd9,
                 thumbnailWidth: 220,
                 thumbnailHeight: 412,
-                tags: [{value: "Graphic design", title: "Graphic Design"}],
+                tags: [{value: "Infographic", title: "Infographic"}],
             },
             {
                 src: gd10,
                 thumbnail: gd10,
                 thumbnailWidth: 320,
                 thumbnailHeight: 212,
-                tags: [{value: "Graphic design", title: "Graphic Design"}],
+                tags: [{value: "Card", title: "Card"}],
             },
             {
                 src: da1,
@@ -146,7 +146,7 @@ function Home() {
                 thumbnail: da5,
                 thumbnailWidth: 220,
                 thumbnailHeight: 212,
-                tags: [{value: "Digital Art", title: "Digital Art", }, {value: "GIF", title: "GIF", }],
+                tags: [ {value: "GIF", title: "GIF", }],
             },
             {
                 src: da6,
@@ -181,7 +181,7 @@ function Home() {
 
     return (
         <div className="home" style={{width:'80%', position:'absolute', marginLeft:'10%', marginTop:'5%'}}>
-            <button class='animate__hinge' style={{marginLeft:'75%', marginTop:'1%', position:'absolute',zIndex:'1'}}  onClick={() => set(!toggle)}>Next <h2
+            <button class='animate__lightSpeedInRight' style={{marginLeft:'75%', marginTop:'1%', position:'absolute',zIndex:'1'}}  onClick={() => set(!toggle)}>Next <h2
                 style={{right: '20%', position: 'absolute', zIndex: '1'}}
                 className="animate__animated animate__bounce">☝️</h2>
             </button>
