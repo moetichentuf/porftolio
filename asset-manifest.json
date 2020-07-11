@@ -1,18 +1,17 @@
 {
   "files": {
     "main.css": "/portfolioMoeti/static/css/main.b7bd96c7.chunk.css",
-    "main.js": "/portfolioMoeti/static/js/main.3e530d39.chunk.js",
-    "main.js.map": "/portfolioMoeti/static/js/main.3e530d39.chunk.js.map",
+    "main.js": "/portfolioMoeti/static/js/main.9a54d4cb.chunk.js",
+    "main.js.map": "/portfolioMoeti/static/js/main.9a54d4cb.chunk.js.map",
     "runtime-main.js": "/portfolioMoeti/static/js/runtime-main.f089d3ad.js",
     "runtime-main.js.map": "/portfolioMoeti/static/js/runtime-main.f089d3ad.js.map",
     "static/js/2.c2b38d3e.chunk.js": "/portfolioMoeti/static/js/2.c2b38d3e.chunk.js",
     "static/js/2.c2b38d3e.chunk.js.map": "/portfolioMoeti/static/js/2.c2b38d3e.chunk.js.map",
     "index.html": "/portfolioMoeti/index.html",
-    "precache-manifest.12f349f335b4ab39b6ddb753981e33ae.js": "/portfolioMoeti/precache-manifest.12f349f335b4ab39b6ddb753981e33ae.js",
+    "precache-manifest.12482df00457abf91033c33f774ec366.js": "/portfolioMoeti/precache-manifest.12482df00457abf91033c33f774ec366.js",
     "service-worker.js": "/portfolioMoeti/service-worker.js",
     "static/css/main.b7bd96c7.chunk.css.map": "/portfolioMoeti/static/css/main.b7bd96c7.chunk.css.map",
     "static/js/2.c2b38d3e.chunk.js.LICENSE.txt": "/portfolioMoeti/static/js/2.c2b38d3e.chunk.js.LICENSE.txt",
-    "static/media/cvMoeti.jpg": "/portfolioMoeti/static/media/cvMoeti.9f9743de.jpg",
     "static/media/da1.jpeg": "/portfolioMoeti/static/media/da1.36046556.jpeg",
     "static/media/da2.jpeg": "/portfolioMoeti/static/media/da2.4fb47a47.jpeg",
     "static/media/da3.jpeg": "/portfolioMoeti/static/media/da3.b38f1b4b.jpeg",
@@ -32,6 +31,7 @@
     "static/media/gd7.jpeg": "/portfolioMoeti/static/media/gd7.9a86f7d4.jpeg",
     "static/media/gd8.jpeg": "/portfolioMoeti/static/media/gd8.64c2a2bf.jpeg",
     "static/media/gd9.jpeg": "/portfolioMoeti/static/media/gd9.19e2db29.jpeg",
+    "static/media/moeti-cv.jpg": "/portfolioMoeti/static/media/moeti-cv.c7d766d2.jpg",
     "static/media/web1.png": "/portfolioMoeti/static/media/web1.487437d0.png",
     "static/media/web2.png": "/portfolioMoeti/static/media/web2.37e6ed8a.png",
     "static/media/web3.png": "/portfolioMoeti/static/media/web3.d5a24ae5.png",
@@ -41,6 +41,6 @@
     "static/js/runtime-main.f089d3ad.js",
     "static/js/2.c2b38d3e.chunk.js",
     "static/css/main.b7bd96c7.chunk.css",
-    "static/js/main.3e530d39.chunk.js"
+    "static/js/main.9a54d4cb.chunk.js"
   ]
 }

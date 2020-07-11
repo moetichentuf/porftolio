@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "aa73569858819525b7eeb44add38e344",
+    "revision": "f86b050a5babad62463cda795a913f46",
     "url": "/portfolioMoeti/index.html"
   },
   {
-    "revision": "fa1e8354b1a719134ce5",
+    "revision": "6634757012badcd32b98",
     "url": "/portfolioMoeti/static/css/main.b7bd96c7.chunk.css"
   },
   {
@@ -16,16 +16,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolioMoeti/static/js/2.c2b38d3e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fa1e8354b1a719134ce5",
-    "url": "/portfolioMoeti/static/js/main.3e530d39.chunk.js"
+    "revision": "6634757012badcd32b98",
+    "url": "/portfolioMoeti/static/js/main.9a54d4cb.chunk.js"
   },
   {
     "revision": "190fa6b450f4af05a139",
     "url": "/portfolioMoeti/static/js/runtime-main.f089d3ad.js"
-  },
-  {
-    "revision": "9f9743deda392441148119986b65edeb",
-    "url": "/portfolioMoeti/static/media/cvMoeti.9f9743de.jpg"
   },
   {
     "revision": "3604655689b8912161e3ee8979fe6626",
@@ -102,6 +98,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "19e2db29951ece6ba5b762cd71e88998",
     "url": "/portfolioMoeti/static/media/gd9.19e2db29.jpeg"
+  },
+  {
+    "revision": "c7d766d27ca2ec3c3d3791e917fab289",
+    "url": "/portfolioMoeti/static/media/moeti-cv.c7d766d2.jpg"
   },
   {
     "revision": "487437d09acb0d21e2b776148f8da75b",
