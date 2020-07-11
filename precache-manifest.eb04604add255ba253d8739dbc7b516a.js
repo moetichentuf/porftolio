@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "eae94eb008fd2faa53717ad29d8d3870",
+    "revision": "619bf831bbb64dc86eb0588ba9d56ffe",
     "url": "/portfolioMoeti/index.html"
   },
   {
-    "revision": "a948b1bf9bc313dd5f9f",
+    "revision": "a344bfd2dd07ae371950",
     "url": "/portfolioMoeti/static/css/main.cadf15a1.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolioMoeti/static/js/2.c2b38d3e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a948b1bf9bc313dd5f9f",
-    "url": "/portfolioMoeti/static/js/main.72185201.chunk.js"
+    "revision": "a344bfd2dd07ae371950",
+    "url": "/portfolioMoeti/static/js/main.57901184.chunk.js"
   },
   {
     "revision": "190fa6b450f4af05a139",
